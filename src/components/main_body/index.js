@@ -115,7 +115,7 @@ export default class MainBody extends Component {
             </section>
             <section className='portfolio'>
               <h1>Meus Projetos</h1>
-              <ul>
+              <ul className='portfolio-list'>
                 {this.generateRepositories()}
               </ul>
             </section>
