@@ -182,34 +182,8 @@ export default class MainBody extends Component {
   render() {
     return (
       <div>
-
-        <article className="alertas">
-          <h2>Versões em React.js estão chegando!</h2>
-        </article>
-
         <div className="main">
           <div className="welcome">
-            <section className="container">
-              <div className='inner-container'>
-                <div>
-                  <h1>
-                    Este sou eu
-                </h1>
-                </div>
-                <div className="card">
-                  <div className="card-header">
-                    <img src={'https://andrelara2002.github.io/image/minha-foto.gif'} alt={'André'} />
-                    <div className="card-header-text">
-                      <h2>{this.state.info.name}</h2>
-                      <strong>Desenvolvedor</strong>
-                    </div>
-                  </div>
-                  <p>
-                    {this.state.info.bio}
-                  </p>
-                </div>
-              </div>
-            </section>
             <section className='portfolio'>
               <h1>Meus Projetos</h1>
               <ul className='portfolio-list'>

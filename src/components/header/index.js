@@ -8,9 +8,9 @@ export default class Header extends Component {
                 <h1>Develop</h1>
                 <nav>
                     <ul>
-                        <li key='1'><a href='#'>Sobre mim</a></li>
-                        <li key='2'><a href='#'>Portfolio</a></li>
-                        <li key='3'><a href='#'>Contato</a></li>
+                        <li key='1'><a href='#'>LinkedIn</a></li>
+                        <li key='2'><a href='#'>Github</a></li>
+                        <li key='3'><a href='#'>Gmail</a></li>
                     </ul>
                 </nav>
             </header>

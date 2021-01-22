@@ -4,12 +4,17 @@ import "./style.css";
 import Header from './components/header/index'
 import MainBody from "./components/main_body/index.js";
 import Hero from './components/hero/index'
+import Spacer from './components/spacer/index'
+import Card from './components/card/index'
 
 export default function App() {
   return (
     <div>
       <Header />
       <Hero />
+      <Spacer space='200'/>
+      <Card />
+      <Spacer space='200'/>
       <MainBody />
     </div>
   );
