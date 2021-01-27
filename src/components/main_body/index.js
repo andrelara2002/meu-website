@@ -141,7 +141,7 @@ export default class MainBody extends Component {
 
   getLink = value => {
     if (value.homepage !== null) {
-      return <button className='special_button' onClick={() => { window.open(`${value.homepage}`, '_blank') }}>Acessar</button>
+      return <button className='special_button' onClick={() => { window.open(value.homepage, '_blank') }}>Acessar</button>
     }
   }
 
@@ -176,7 +176,13 @@ export default class MainBody extends Component {
       string_ = string_.replace('_', ' ')
       string_ = string_.replace('-', ' ')
     }
+
+    string_ = this.capitalize(string_)
     return <h2 className='card-title'>{string_}<strong className={'outline-box ' + language_}>{language_}</strong></h2>
+  }
+
+  capitalize = word => {
+    return word.charAt(0).toUpperCase() + word.slice(1)
   }
 
   render() {

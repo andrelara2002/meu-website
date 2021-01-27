@@ -1,4 +1,5 @@
 import react, { Component } from 'react';
+import './style.scss'
 
 export default class Card extends Component {
     constructor(props) {

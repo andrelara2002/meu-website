@@ -1,8 +1,17 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
 }
 
-:root{
+html,
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+:root {
   --color-background: #121214;
   --card-color: #212025;
   --accent-color: #91ff8e;

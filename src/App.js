@@ -12,9 +12,9 @@ export default function App() {
     <div>
       <Header />
       <Hero />
-      <Spacer space='200'/>
+      <Spacer space='1'/>
       <Card />
-      <Spacer space='200'/>
+      <Spacer space='10'/>
       <MainBody />
     </div>
   );

@@ -10,7 +10,7 @@ export default class Spacer extends Component{
 
     render(){
         return(
-            <div style={{height:this.state.size + 'px', width:'100%'}}></div>
+            <div style={{height:this.state.size + 'rem', width:'100%'}}></div>
         )
     }
 }
