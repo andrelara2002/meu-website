@@ -30,7 +30,7 @@ export default class Card extends Component {
                     </div>
                     <div className="card">
                         <div className="card-header">
-                            <img src={'https://andrelara2002.github.io/image/minha-foto.gif'} alt={'André'} />
+                            <img src={'https://avatars.githubusercontent.com/u/66387919?s=460&u=4170b1050e19c4b0a4191c05e0d973f3e6667911&v=4'} alt={'André'} />
                             <div className="card-header-text">
                                 <h2>André Lara</h2>
                                 <strong>Desenvolvedor</strong>
