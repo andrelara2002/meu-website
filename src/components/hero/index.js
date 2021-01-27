@@ -9,7 +9,7 @@ export default class Hero extends Component {
                 <div className='inner'>
                     <h1>Seja Bem Vindo</h1>
                     <p>Onde a programação não é apenas códigos</p>
-                    <button>Conheça</button>
+                    <a href='https://www.github.com/andrelara2002'><button >Conheça</button></a>
                 </div>
             </div>
         )

@@ -189,7 +189,7 @@ export default class MainBody extends Component {
     return (
       <div>
         <div className="main">
-          <div className="welcome">
+          <div className="welcome" id='portfolio-session'>
             <section className='portfolio'>
               <h1>Meus Projetos</h1>
               <ul className='portfolio-list'>
