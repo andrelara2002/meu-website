@@ -62,6 +62,7 @@
     .card {
         width: 30vw;
         flex-direction: column;
+        max-width: 600px;
     }
 
     .inner-container {
@@ -75,6 +76,6 @@
 
 @media screen and (min-device-aspect-ratio: 21/9) {
     .inner-container{
-        width: 54%;
+        width: 46%;
     }
 }

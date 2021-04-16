@@ -153,6 +153,10 @@ export default class MainBody extends Component {
       string_ = value.name.replace('-ReactJs', '')
       language_ = 'REACTJS'
     }
+    else if (value.name.includes('-UNITY')){
+      string_ = value.name.replace('-UNITY', '')
+      language_ = 'UNITY'
+    }
     else if (value.name.includes('-JAVA')) {
       string_ = value.name.replace('-JAVA', '')
       language_ = 'JAVA'

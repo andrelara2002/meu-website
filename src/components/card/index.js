@@ -21,11 +21,12 @@ export default class Card extends Component {
 
                 <br /><br />
 
-                Tenho mais de um ano de estudos na área, e já passei por Java, C#, Javascript
+                Tenho mais de dois anos de estudos na área, e já passei por Java, C#, Javascript
                 e Python, embora não sejam tão profundos já tenho conhecimento básico nessa
                 área, além de conhecimento sobre UML, HTML e CSS. Atualmente minha stack é
                 para o desenvolvimento web, onde tenho mais conhecimento com Javascript
-                e HTML, enquanto estudo frameworks como React.
+                e HTML, com projetos feitos em React JS, enquanto estudo Flutter e
+                React Native para desenvolvimento mobile.
             </p>
                     </div>
                     <div className="card">
