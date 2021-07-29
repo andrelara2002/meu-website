@@ -1,0 +1,76 @@
+.card {
+  background: var(--card-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  width: 80%;
+  color: white;
+  padding: 2rem;
+}
+.card img {
+  border-radius: 50%;
+  width: 10rem;
+}
+.card h2 {
+  margin-bottom: 0;
+}
+.card strong {
+  text-align: center;
+  justify-content: center;
+  color: var(--secondary-accent-color);
+  margin-top: 0;
+}
+.card p {
+  text-align: center;
+}
+
+.whoami {
+  max-width: 400px;
+  padding: 1rem;
+}
+.whoami h1 {
+  color: var(--secondary-accent-color);
+  font-size: 3rem;
+}
+.whoami p {
+  font-size: 1rem;
+  color: #dadada;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 700px) {
+  .card {
+    width: 30vw;
+    flex-direction: column;
+    max-width: 600px;
+  }
+
+  .inner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 80%;
+  }
+}
+@media screen and (min-device-aspect-ratio: 21/9) {
+  .inner-container {
+    width: 46%;
+  }
+}

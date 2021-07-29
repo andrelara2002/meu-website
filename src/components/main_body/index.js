@@ -118,18 +118,23 @@ export default class MainBody extends Component {
 
   generateRepositories = () => {
     return this.state.repositories.map((value, idx) => {
+      let newValue = ""
+      const size = 120;
+
+      if (value.description !== null && value.description.length >= size) {
+        newValue = value.description.slice(0, size)
+        newValue += "..."
+      }
+      else {
+        newValue = value.description
+      }
       if (value.name.includes('andrelara2002') === false) {
         return (
           <article key={idx} className='application_box'>
 
-            <div className='left' >
-              {this.state.functional_repos.filter(obj => obj.id === value.id).map(filteredObj => (
-                <img src={filteredObj.img} alt='' />
-              ))}
-            </div>
             <div className='right'>
               {this.selectText(value)}
-              <p>{value.description}</p>
+              <p>{newValue}</p>
               <button className='default_button' onClick={() => { window.open(value.html_url, '_blank') }}>Github</button>
               {this.getLink(value)}
             </div>
@@ -153,7 +158,7 @@ export default class MainBody extends Component {
       string_ = value.name.replace('-ReactJs', '')
       language_ = 'REACTJS'
     }
-    else if (value.name.includes('-UNITY')){
+    else if (value.name.includes('-UNITY')) {
       string_ = value.name.replace('-UNITY', '')
       language_ = 'UNITY'
     }
@@ -200,12 +205,7 @@ export default class MainBody extends Component {
                 {this.generateRepositories()}
               </ul>
             </section>
-
           </div>
-          <footer>
-            <button onClick={() => { window.open(this.state.info.blog_link) }}>Linkedin</button>
-            <button onClick={() => { window.open(this.state.info.github_link) }}>Github</button>
-          </footer>
         </div>
       </div>
     );
