@@ -1,0 +1,86 @@
+[
+    {
+        "name": "JavaScript",
+        "color": "#f0db4f"
+    },
+    {
+        "name": "HTML",
+        "color": "#e34c26"
+    },
+    {
+        "name": "CSS",
+        "color": "#563d7c"
+    },
+    {
+        "name": "Python",
+        "color": "#3572A5"
+    },
+    {
+        "name": "C#",
+        "color": "#178600"
+    },
+    {
+        "name": "C++",
+        "color": "#f34b7d"
+    },
+    {
+        "name": "Java",
+        "color": "#b07219"
+    },
+    {
+        "name": "SQL",
+        "color": "#563d7c"
+    },
+    {
+        "name": "PHP",
+        "color": "#4f5d95"
+    },
+    {
+        "name": "Swift",
+        "color": "#ffac45"
+    },
+    {
+        "name": "Ruby",
+        "color": "#701516"
+    },
+    {
+        "name": "Go",
+        "color": "#375eab"
+    },
+    {
+        "name": "Kotlin",
+        "color": "#f18e33"
+    },
+    {
+        "name": "Objective-C",
+        "color": "#438eff"
+    },
+    {
+        "name": "TypeScript",
+        "color": "#2b7489"
+    },
+    {
+        "name": "Rust",
+        "color": "#dea584"
+    },
+    {
+        "name": "Scala",
+        "color": "#c22d40"
+    },
+    {
+        "name": "Swift",
+        "color": "#ffac45"
+    },
+    {
+        "name": "Kotlin",
+        "color": "#f18e33"
+    },
+    {
+        "name": "Objective-C",
+        "color": "#438eff"
+    },
+    {
+        "name": "TypeScript",
+        "color": "#2b7489"
+    }
+]
