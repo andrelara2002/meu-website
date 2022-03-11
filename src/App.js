@@ -47,11 +47,9 @@ export default function App() {
   else {
     return (
       <div className="main">
-        <section className="site-hero">
-          <img src={site_hero} style={{ width: ratio >= 2 ? innerWidth / 2 : innerWidth }} />
-        </section>
         <Spacer size={100} />
         <section className="divide-flex">
+          <img hidden={innerWidth > 800 ? false : true} src={profile_picture} />
           <div className="bio-container">
             <h1>Quem sou eu?</h1>
             <p
@@ -64,7 +62,6 @@ export default function App() {
               <button className="button email">Email</button>
             </div>
           </div>
-          <img hidden={innerWidth > 800 ? false : true} src={profile_picture} />
         </section>
         <Spacer size={100} />
         <RepoList repos={userInfo.repos} />

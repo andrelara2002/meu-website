@@ -48,9 +48,9 @@ export default function repoList(props) {
                 language, html_url, homepage, created_at } = item;
 
             //Cleaning name from user name
-            let name = full_name.replace('andrelara2002/', '');
+            let name = full_name.replaceAll('andrelara2002/', '');
             //Converting "-"" and "_" to spaces
-            name = name.replace('-', ' ').replace('_', ' ');
+            name = name.replace('-', ' ').replaceAll('_', ' ');
 
             const languageColor = languageColors.filter(x => {
                 if (x.name === language) {
